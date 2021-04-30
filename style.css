@@ -1,0 +1,22 @@
+body {
+   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 15px;
+   line-height: 1.42857143;
+   color: #ffffff;
+   background-color: #222222;
+}
+
+a {
+   color: #0ce3ac;
+   text-decoration: none;
+}
+
+.jumbotron .h1 {
+   font-size: 68px;
+}
+
+.jumbotron p {
+   margin-bottom: 15px;
+   font-size: 23px;
+   font-weight: 200;
+}
