@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>repl.it</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-   </head>
-   <body>
-      <script src="script.js"></script>
-      <div class="row">
-         <div class="jumbotron">
-            <h1>Introducing VACCheck</h1>
-            <p>A simple way to check if players in a TF2 match have any VACbans.</p>
-         </div>
-      </div>
-      <hr>
-      <h1 class="page-header">Frequently Asked Questions</h1>
-      <div class="panel panel-default">
-         <div class="panel-heading" id="make">
-            <h3>How to use this site?</h3>
-         </div>
-         <div class="panel-body">
-            <p>
-            </p>
-            <ul>
-               <li>While in game, open the console and run the <strong>status</strong> command. </li>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+	</script>
+	<div class="row">
+		<div class="jumbotron">
+			<h1>Introducing VACCheck</h1>
+			<p>A simple way to check if players in a TF2 match have any VACbans.</p>
+		</div>
+	</div>
+	<hr>
+	<h1 class="page-header">Frequently Asked Questions</h1>
+	<div class="panel panel-default">
+		<div class="panel-heading" id="make">
+			<h3>How to use this site?</h3>
+		</div>
+		<div class="panel-body">
+			<p>
+			</p>
+			<ul>
+				<li>While in game, open the console and run the <strong>status</strong> command. </li>
                <li>Copy the output partially, we only need the user data like so: <i># 809 "❣г๏zเt๏❣" [U:1:172149372] 29:11 100 0 active</i>. <strong>Avoid the headers of the list like <i># userid name uniqueid connected ping loss</i></strong>.</li>
                <li>Paste the list into the prompt and click accept. </li>
                <li>Thats it, the list shows if any player was banned recently.</li>
